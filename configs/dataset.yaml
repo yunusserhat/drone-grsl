@@ -1,0 +1,14 @@
+# YOLO Tank Detection Dataset
+# Created for DroneVision Challenge
+
+path: /path/to/your/dataset  # UPDATE THIS: dataset root directory
+train: train/images          # train images (relative to 'path')
+val: valid/images            # val images (relative to 'path')
+test: test/images            # test images (optional)
+
+# Classes
+names:
+  0: tank  # class 0 = tank
+
+# Dataset info
+nc: 1  # number of classes
